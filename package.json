@@ -1,0 +1,35 @@
+{
+	"name": "metalsmith-more",
+	"description": "A Metalsmith plugin to store the content before <!--more--> in HTML files.",
+	"author": "Kenneth G. Franqueiro",
+	"main": "lib/index.js",
+
+	"version": "0.1.0",
+
+	"engines": {
+		"node": ">=0.10"
+	},
+
+	"scripts": {
+		"test": "node_modules/.bin/intern-client config=test/intern"
+	},
+
+	"devDependencies": {
+		"intern": "~1.7",
+		"metalsmith": "~0",
+		"rimraf": "~2.2"
+	},
+
+	"bugs": "https://github.com/kfranqueiro/metalsmith-more/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kfranqueiro/metalsmith-more.git"
+	},
+
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	]
+}
