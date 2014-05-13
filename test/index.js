@@ -49,6 +49,7 @@ define([
 		test.test('default behavior', createTest('defaults'));
 		test.test('custom key', createTest('defaults', { key: 'test' }));
 		test.test('custom regexp', createTest('custom-tag', { regexp: /\s*<!--test-->/ }));
+		test.test('custom regexp as string', createTest('custom-tag', { regexp: '\\s*<!--test-->' }));
 		test.test('custom ext',
 			createTest('custom-ext', { ext: 'htm' }, customExtAssertions));
 		test.test('custom ext (with period)',
