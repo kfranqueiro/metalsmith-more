@@ -54,6 +54,7 @@ define([
 			createTest('custom-ext', { ext: 'htm' }, customExtAssertions));
 		test.test('custom ext (with period)',
 			createTest('custom-ext', { ext: '.htm' }, customExtAssertions));
+		test.test('utf8 content', createTest('utf8'));
 
 		// TODO: add fixtures and tests for custom ext and regexp
 	});
