@@ -15,7 +15,7 @@
 	},
 
 	"devDependencies": {
-		"intern": "~1.7",
+		"intern": "~2.0",
 		"metalsmith": "~0",
 		"rimraf": "~2.2"
 	},
