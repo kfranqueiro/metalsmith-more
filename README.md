@@ -41,6 +41,11 @@ following options to customize its behavior:
 * `regexp` - Regular expression to truncate against; default is `/\s*<!--\s*more\s*-->/`.
   May also be specified as a string, which a `RegExp` will be constructed from.
 * `key` - Key to store truncated content in; default is `less`
+* `alwaysAddKey` - whether to always add the specified key even if a file contains no match to `regexp`;
+  default is `false`.
+  * When `false`, any file with no match will not contain the specified key.
+  * When `true`, any file with no match will have the specified key's value set
+    equal to the file's `contents`.
 
 These options can be specified in an object passed to the plugin function or
 assigned to the `metalsmith-more` key in `metalsmith.json`.
