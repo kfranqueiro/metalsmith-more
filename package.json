@@ -4,7 +4,7 @@
 	"author": "Kenneth G. Franqueiro",
 	"main": "lib/index.js",
 
-	"version": "0.1.1",
+	"version": "0.2.0",
 
 	"engines": {
 		"node": ">=0.10"
