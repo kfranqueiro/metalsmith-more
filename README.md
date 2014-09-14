@@ -46,6 +46,8 @@ following options to customize its behavior:
   * When `false`, any file with no match will not contain the specified key.
   * When `true`, any file with no match will have the specified key's value set
     equal to the file's `contents`.
+* `replace` - Optional. String replaces the matched comment in page content;
+  i.e. `<a id="more"></a>`
 
 These options can be specified in an object passed to the plugin function or
 assigned to the `metalsmith-more` key in `metalsmith.json`.
